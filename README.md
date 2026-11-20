@@ -27,3 +27,7 @@
   <a href="https://github.com/CeyDrew/laravel-tr-validation"><img src="assets/e-laravel-tr-validation.svg" width="49%" alt="laravel-tr-validation"></a>
   <a href="https://voxdesk.voxnup.com"><img src="assets/e-VoxDesk.svg" width="49%" alt="VoxDesk"></a>
 </p>
+<p>
+  <a href="https://github.com/CeyDrew/bank-reconciliation-api"><img src="assets/e-bank-reconciliation-api.svg" width="49%" alt="bank-reconciliation-api"></a>
+  <a href="https://github.com/CeyDrew/voxbrowser"><img src="assets/e-voxbrowser.svg" width="49%" alt="voxbrowser"></a>
+</p>
