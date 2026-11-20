@@ -30,8 +30,8 @@
     <rect x="46" y="182" width="120" height="3" rx="1.5" fill="url(#acc)"/>
   </g>
   <g class="fade" style="animation-delay:.9s">
-    <rect x="510" y="150" width="286" height="50" rx="12" fill="#0d1117" fill-opacity=".55" stroke="#30363d"/>
-    <text x="530" y="180" style="font:500 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e6edf3"><tspan fill="#58a6ff">✉ </tspan>abdurrahmanbilici.dev@gmail.com</text>
+    <rect x="510" y="95" width="286" height="50" rx="12" fill="#0d1117" fill-opacity=".55" stroke="#30363d"/>
+    <text x="530" y="125" style="font:500 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e6edf3"><tspan fill="#58a6ff">✉ </tspan>abdurrahmanbilici.dev@gmail.com</text>
   </g>
 </g>
 </svg>
