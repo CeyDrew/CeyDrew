@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="240" viewBox="0 0 840 240">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#58a6ff"><animate attributeName="stop-color" values="#58a6ff;#3fb950;#a371f7;#58a6ff" dur="8s" repeatCount="indefinite"/></stop>
+    <stop offset="1" stop-color="#3fb950"><animate attributeName="stop-color" values="#3fb950;#a371f7;#58a6ff;#3fb950" dur="8s" repeatCount="indefinite"/></stop>
+  </linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+  <clipPath id="clip"><rect width="840" height="240" rx="18"/></clipPath>
+</defs>
+<style>
+  .name{font:700 44px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#f0f6fc;letter-spacing:-0.5px}
+  .role{font:600 22px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+  .sub{font:400 15px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#8b949e}
+  .k{font:700 20px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#f0f6fc}
+  .v{font:400 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#8b949e;letter-spacing:.5px}
+  .fade{opacity:0;animation:in .8s ease forwards}
+  @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+</style>
+<g clip-path="url(#clip)">
+  <rect width="840" height="240" fill="url(#bg)"/>
+  <circle cx="700" cy="40" r="120" fill="#1f6feb" opacity=".35" filter="url(#blur)"><animate attributeName="cx" values="700;620;700" dur="12s" repeatCount="indefinite"/></circle>
+  <circle cx="780" cy="220" r="110" fill="#3fb950" opacity=".25" filter="url(#blur)"><animate attributeName="cy" values="220;160;220" dur="10s" repeatCount="indefinite"/></circle>
+  <circle cx="520" cy="250" r="90" fill="#a371f7" opacity=".2" filter="url(#blur)"><animate attributeName="cx" values="520;580;520" dur="14s" repeatCount="indefinite"/></circle>
+  <rect x="0.5" y="0.5" width="839" height="239" rx="18" fill="none" stroke="#30363d"/>
+  <g class="fade"><text x="44" y="92" class="name">Abdurrahman Bilici</text></g>
+  <g class="fade" style="animation-delay:.25s"><text x="46" y="128" class="role" fill="url(#acc)">Full Stack Developer</text></g>
+  <g class="fade" style="animation-delay:.5s"><text x="46" y="160" class="sub">Flutter · Node.js · PHP — AI-assisted with Claude Code</text></g>
+  <g class="fade" style="animation-delay:.75s">
+    <rect x="46" y="182" width="120" height="3" rx="1.5" fill="url(#acc)"/>
+  </g>
+  <g class="fade" style="animation-delay:.9s">
+    <rect x="510" y="150" width="286" height="50" rx="12" fill="#0d1117" fill-opacity=".55" stroke="#30363d"/>
+    <text x="530" y="180" style="font:500 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e6edf3"><tspan fill="#58a6ff">✉ </tspan>abdurrahmanbilici.dev@gmail.com</text>
+  </g>
+</g>
+</svg>
