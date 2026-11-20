@@ -15,4 +15,4 @@
 
 <h3 align="center">Activity</h3>
 
-<img src="assets/activity.svg" width="100%" alt="GitHub activity in the last 12 months">
+<picture><img src="assets/activity.svg" width="100%" alt="GitHub activity in the last 12 months"></picture>
