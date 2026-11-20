@@ -100,7 +100,6 @@ def render(u):
         label = f"{name} {size / total * 100:.0f}%"
         parts.append(f'<circle cx="{lx + 5}" cy="219" r="5" fill="{color}"/><text x="{lx + 16}" y="224" class="leg">{escape(label)}</text>')
         lx += 22 + len(label) * 7.4
-    parts.append(f'<text x="{W - 36}" y="{H - 22}" text-anchor="end" class="upd">updated {dt.date.today().isoformat()}</text>')
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
 <defs>
@@ -114,7 +113,6 @@ def render(u):
   .num{{font:700 30px {SANS};fill:#f0f6fc}}
   .lab{{font:600 11px {SANS};fill:#8b949e;letter-spacing:1.2px}}
   .leg{{font:500 13px {SANS};fill:#c9d1d9}}
-  .upd{{font:400 11px {SANS};fill:#6e7681}}
   .cap{{font:600 11px {SANS};fill:#58a6ff;letter-spacing:1.5px}}
 </style>
 <g clip-path="url(#card)">
