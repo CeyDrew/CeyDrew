@@ -12,6 +12,7 @@ from html import escape
 
 USER = sys.argv[1] if len(sys.argv) > 1 else "CeyDrew"
 OUT = os.path.join(os.path.dirname(__file__), "..", "assets", "activity.svg")
+LANGS = os.path.join(os.path.dirname(__file__), "..", "assets", "languages.json")
 # Flutter/React Native platform scaffolding, not hand-written code
 SKIP_LANGS = {"Swift", "Kotlin", "Objective-C", "C++", "CMake", "C", "Ruby", "Batchfile", "Shell", "PowerShell", "Dockerfile"}
 SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
@@ -58,7 +59,11 @@ def render(u):
         (sum(1 for d in days if d["contributionCount"] > 0), "ACTIVE DAYS"),
     ]
     langs = {}
-    for repo in u["repositories"]["nodes"]:
+    if os.path.exists(LANGS):
+        # Snapshot incl. private repos (scripts/snapshot_languages.py); the Actions token only sees public ones
+        with open(LANGS, encoding="utf-8") as f:
+            langs = {n: tuple(v) for n, v in json.load(f).items()}
+    for repo in [] if langs else u["repositories"]["nodes"]:
         for e in repo["languages"]["edges"]:
             n = e["node"]["name"]
             if n in SKIP_LANGS:
@@ -99,7 +104,7 @@ def render(u):
     for name, (size, color) in top:
         label = f"{name} {size / total * 100:.0f}%"
         parts.append(f'<circle cx="{lx + 5}" cy="219" r="5" fill="{color}"/><text x="{lx + 16}" y="224" class="leg">{escape(label)}</text>')
-        lx += 22 + len(label) * 7.4
+        lx += 30 + len(label) * 8
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
 <defs>
