@@ -13,21 +13,6 @@
   <a href="https://flutter.dev" title="Flutter"><img src="https://skillicons.dev/icons?i=flutter&theme=dark" width="36" height="36" alt="Flutter"></a> <a href="https://dart.dev" title="Dart"><img src="https://skillicons.dev/icons?i=dart&theme=dark" width="36" height="36" alt="Dart"></a> <a href="https://firebase.google.com" title="Firebase"><img src="https://skillicons.dev/icons?i=firebase&theme=dark" width="36" height="36" alt="Firebase"></a> <a href="https://nodejs.org" title="Node.js"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="36" height="36" alt="Node.js"></a> <a href="https://www.php.net" title="PHP"><img src="https://skillicons.dev/icons?i=php&theme=dark" width="36" height="36" alt="PHP"></a> <a href="https://www.python.org" title="Python"><img src="https://skillicons.dev/icons?i=python&theme=dark" width="36" height="36" alt="Python"></a> <a href="https://flask.palletsprojects.com" title="Flask"><img src="https://skillicons.dev/icons?i=flask&theme=dark" width="36" height="36" alt="Flask"></a> <a href="https://developer.mozilla.org/docs/Web/JavaScript" title="JavaScript"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="36" height="36" alt="JavaScript"></a> <a href="https://jquery.com" title="jQuery"><img src="https://skillicons.dev/icons?i=jquery&theme=dark" width="36" height="36" alt="jQuery"></a> <a href="https://developer.mozilla.org/docs/Web/HTML" title="HTML5"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="36" height="36" alt="HTML5"></a> <a href="https://developer.mozilla.org/docs/Web/CSS" title="CSS"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="36" height="36" alt="CSS"></a> <a href="https://www.mysql.com" title="MySQL"><img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="36" height="36" alt="MySQL"></a> <a href="https://www.postgresql.org" title="PostgreSQL"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="36" height="36" alt="PostgreSQL"></a> <a href="https://redis.io" title="Redis"><img src="https://skillicons.dev/icons?i=redis&theme=dark" width="36" height="36" alt="Redis"></a> <a href="https://www.docker.com" title="Docker"><img src="https://skillicons.dev/icons?i=docker&theme=dark" width="36" height="36" alt="Docker"></a> <a href="https://git-scm.com" title="Git"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="36" height="36" alt="Git"></a> <a href="https://github.com/features/actions" title="GitHub Actions"><img src="https://skillicons.dev/icons?i=githubactions&theme=dark" width="36" height="36" alt="GitHub Actions"></a> <a href="https://unity.com" title="Unity"><img src="https://skillicons.dev/icons?i=unity&theme=dark" width="36" height="36" alt="Unity"></a> <a href="https://learn.microsoft.com/dotnet/csharp" title="C#"><img src="https://skillicons.dev/icons?i=cs&theme=dark" width="36" height="36" alt="C#"></a>
 </p>
 
-<h3 align="center">Featured Projects</h3>
+<h3 align="center">Activity</h3>
 
-<p>
-  <a href="https://github.com/CeyDrew/claude-merkezi"><img src="assets/e-claude-merkezi.svg" width="49%" alt="claude-merkezi"></a>
-  <a href="https://github.com/CeyDrew/VoxPilot"><img src="assets/e-VoxPilot.svg" width="49%" alt="VoxPilot"></a>
-</p>
-<p>
-  <a href="https://github.com/CeyDrew/secure-launcher"><img src="assets/e-secure-launcher.svg" width="49%" alt="secure-launcher"></a>
-  <a href="https://github.com/CeyDrew/flutter_tr_formatters"><img src="assets/e-flutter_tr_formatters.svg" width="49%" alt="flutter_tr_formatters"></a>
-</p>
-<p>
-  <a href="https://github.com/CeyDrew/laravel-tr-validation"><img src="assets/e-laravel-tr-validation.svg" width="49%" alt="laravel-tr-validation"></a>
-  <a href="https://voxdesk.voxnup.com"><img src="assets/e-VoxDesk.svg" width="49%" alt="VoxDesk"></a>
-</p>
-<p>
-  <a href="https://github.com/CeyDrew/bank-reconciliation-api"><img src="assets/e-bank-reconciliation-api.svg" width="49%" alt="bank-reconciliation-api"></a>
-  <a href="https://github.com/CeyDrew/voxbrowser"><img src="assets/e-voxbrowser.svg" width="49%" alt="voxbrowser"></a>
-</p>
+<img src="assets/activity.svg" width="100%" alt="GitHub activity in the last 12 months">
